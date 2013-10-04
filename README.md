@@ -1,4 +1,4 @@
 elementary-post-install
 =======================
 
-A script that setup my environment
+A script to setup my environment
