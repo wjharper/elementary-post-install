@@ -1,0 +1,30 @@
+[global_config]
+[keybindings]
+  cycle_next = <Primary>grave
+  move_tab_right = <Primary><Shift>Right
+  next_tab = <Super>Tab
+  move_tab_left = <Primary><Shift>Left
+[profiles]
+  [[default]]
+    scrollbar_position = hidden
+    use_system_font = False
+    background_darkness = 0.91
+    background_type = transparent
+    background_image = None
+    foreground_color = "#000000"
+    icon_bell = False
+    use_theme_colors = True
+    show_titlebar = False
+    font = Source Code Pro Medium 9
+    background_color = "#ffffff"
+    scrollback_infinite = True
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = default
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
