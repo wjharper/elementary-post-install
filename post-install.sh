@@ -22,7 +22,7 @@ sudo apt-get update
 sudo apt-get upgrade
 
 sudo apt-get update
-sudo apt-get install emacs24 emacs24-el emacs24-common-non-dfsg firefox elementary-tweaks wingpanel-slim indicator-synapse  elementary-blue-theme elementary-champagne-theme elementary-colors-theme elementary-dark-theme elementary-harvey-theme elementary-lion-theme elementary-milk-theme elementary-plastico-theme elementary-whit-e-theme elementary-thirdparty-icons elementary-plank-themes elementary-wallpaper-collection ssh mysql-server terminator python-pip git git-core meld
+sudo apt-get install emacs24 emacs24-el emacs24-common-non-dfsg firefox elementary-tweaks wingpanel-slim indicator-synapse  elementary-blue-theme elementary-champagne-theme elementary-colors-theme elementary-dark-theme elementary-harvey-theme elementary-lion-theme elementary-milk-theme elementary-plastico-theme elementary-whit-e-theme elementary-thirdparty-icons elementary-plank-themes elementary-wallpaper-collection ssh mysql-server terminator python-pip git git-core meld subversion
 
 sudo apt-get install lamp-server^
 sudo apt-get install php5-gd php-xml-parser php5-intl smbclient curl libcurl3 php5-curl openjdk-6-jre openjdk-6-jdk
