@@ -51,7 +51,7 @@ function install_fonts(){
     unzip -o -j source-sans-pro.zip
     cp *.otf ~/.fonts
     fc-cache -f -v
-   
+    
 }
 
 function install_emacs(){
@@ -102,6 +102,12 @@ function install_sql_developer(){
     rm *  
 }
 
+function install_libreoffice_icons(){
+    sudo apt-get install libreoffice-style-crystal
+    cd /tmp && wget https://github.com/hotice/myfiles/raw/master/images_flat.zip
+    sudo cp images_flat.zip /usr/share/libreoffice/share/config/images_crystal.zip
+}
+
 function install_theme(){
     sudo add-apt-repository ppa:upubuntu-com/nitrux
     sudo apt-get update 
@@ -135,6 +141,7 @@ install_git
 install_owncloud_prereqs
 terminal_configuration
 add_icon
+install_libreoffice_icons
 install_sql_developer
 os_name=`lsb_release -i | cut -f 2-`
 if [ "$os_name" == "elementary OS" ]; then
